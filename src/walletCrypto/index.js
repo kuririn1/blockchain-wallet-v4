@@ -11,8 +11,8 @@ import { pbkdf2 } from 'pbkdf2'
 // @ts-ignore
 import { compose, curry, has, is, isNil, propSatisfies, sequence } from 'ramda'
 
-import createRng from './rng'
-import * as U from './utils'
+import createRng from './rng.js'
+import * as U from './utils.js'
 
 export const SUPPORTED_ENCRYPTION_VERSION = 4
 
@@ -259,13 +259,13 @@ export const decryptWallet = curry((password, data) =>
 )
 
 // @ts-ignore
-window.decryptWallet = decryptWallet
+//window.decryptWallet = decryptWallet
 
 // @ts-ignore
-window.decryptWalletV2V3 = decryptWalletV2V3
+//window.decryptWalletV2V3 = decryptWalletV2V3
 
 // @ts-ignore
-window.decryptDataWithPassword = decryptDataWithPassword
+//window.decryptDataWithPassword = decryptDataWithPassword
 
 export const derivePubFromPriv = (priv) => {
   return Bitcoin.ECPair.fromPrivateKey(priv).publicKey

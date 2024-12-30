@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Functional library for handling Blockchain.com wallets.",
   "license": "AGPL-3.0-or-later",
+  "type": "module",
   "author": {
     "name": "Blockchain",
     "url": "https://blockchain.com"
@@ -83,6 +84,7 @@
     "fast-memoize": "2.5.2",
     "firebase": "9.17.1",
     "fisher-yates": "1.0.3",
+    "futoin-hkdf": "^1.5.3",
     "futurize": "1.2.0",
     "immutable": "3.8.1",
     "immutable-ext": "1.1.5",
@@ -99,6 +101,7 @@
     "scrypt-js": "3.0.1",
     "seedrandom": "2.4.3",
     "stellar-sdk": "8.2.5",
+    "ts-node": "^10.9.2",
     "unorm": "1.6.0",
     "uuid": "8.3.2"
   },

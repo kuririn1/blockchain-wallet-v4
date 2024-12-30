@@ -2,7 +2,7 @@ import assert from 'assert'
 import Either from 'data.either'
 import randomBytes from 'randombytes'
 
-import { isHex, isPositiveInteger } from '../utils/checks'
+import { isHex, isPositiveInteger } from '../utils/checks.js'
 
 const FORMAT = 'hex'
 const DEFAULT_BYTES = 32

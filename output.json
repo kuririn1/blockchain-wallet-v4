@@ -1,0 +1,53 @@
+{
+  "tx_notes": {},
+  "guid": "d9e5766d-d646-4b3a-b32e-4bda649e4c45",
+  "tx_names": [],
+  "double_encryption": false,
+  "address_book": [],
+  "keys": [],
+  "hd_wallets": [
+    {
+      "seed_hex": "5ed473b22816426aad2f8c5bb9d4622c",
+      "passphrase": "",
+      "mnemonic_verified": false,
+      "default_account_idx": 0,
+      "accounts": [
+        {
+          "label": "My Bitcoin Wallet",
+          "archived": false,
+          "default_derivation": "segwitP2SH",
+          "derivations": [
+            {
+              "type": "segwitP2SH",
+              "purpose": 49,
+              "xpriv": "xprv9yBnEcKx13JNF9Y2BH7Yp36eqs7bJfo7QhccQPeJie1T2JNDhGKr1CF7KxmCMmU7SbXybCqFiDeQET38H1B6FscBRJAxwbf3cnreALGwVak",
+              "xpub": "xpub6CB8e7rqqQrfTdcVHJeZBB3PPtx5i8WxmvYDCn3vGyYRu6hNEoe6YzZbBDZH8AoG7W5jse74QMBEvBMVo9ZZEWRmwsy6z6g3Xmj3R7mfGiC",
+              "address_labels": [],
+              "cache": {
+                "receiveAccount": "xpub6DeCoAkepGFLnAABcX2DWnvb8jm2Dmvnwwyk7ZVPj9wwQDpEStGC57JayPGC37AXAXLExCbv1ubo3yh4k5heySuxAjU9cwCWwNa3VM82W2d",
+                "changeAccount": "xpub6DeCoAkepGFLoBknNcQqQp8ZUChayKrzhHQjSiU1FnqpReGd2UdU9UzdjSdQfBya6KUQsUj2bFqBZz9CRysy99aPpNC4NWhxdW9yeT7Gxuw"
+              }
+            },
+            {
+              "type": "legacy",
+              "purpose": 44,
+              "xpriv": "xprv9zQ3aYA9cpj8n1vh4vz8uux1vnJUAoMi8zus2JGhYWqW2HVpNv6XzT5RvfYANDZk2xuLL2TtCCPUoZ7ZX2e1yhoFVPngFqjWywSvPqQy8dv",
+              "xpub": "xpub6DPPz3h3TCHRzW1AAxX9H3tkUp8xaG5ZWDqTpggK6rNUu5pxvTQnYFPumv5igtns5DXfHtNepsfuD4XSYJZjhkbACS3DuHHm4uWTqyZYAQ1",
+              "address_labels": [],
+              "cache": {
+                "receiveAccount": "xpub6E9DxWAP4m6CxVGykKgi9ggyNS37g39iYUaJJ1Ykyw9ni7oZmKXdgpPaof396peEWSh3SKLHZY7TXxyNKjvwZvAGgRqduc4xB1d4fx27bCU",
+                "changeAccount": "xpub6E9DxWAP4m6Cz7StnmJxRLb47YGCMEUYPD2goM3qk9ndritQHJxTF4Uacq6WZanh3TNhygVBC9XN6EYSgkUKZ78c69AYv7NCF2nrCsrYh1T"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sharedKey": "f7b315d0-8417-450d-91b9-8273a21d46b2",
+  "options": {
+    "pbkdf2_iterations": 5000,
+    "html5_notifications": false,
+    "logout_time": 600000
+  }
+}
